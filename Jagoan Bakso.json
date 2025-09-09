@@ -5671,6 +5671,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -5734,6 +5744,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -5747,6 +5767,33 @@
                   "parameters": [
                     "emas",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -6194,6 +6241,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8129,7 +8177,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740928,
+        "zoomFactor": 0.6455105703311478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8514,6 +8562,22 @@
           "x": 728,
           "y": 451,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "background",
+          "name": "background",
+          "persistentUuid": "b63830fa-cb7f-44fd-924f-6193ce35b7af",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10242,6 +10306,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vector.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1281,
+                            "y": 0
+                          },
+                          {
+                            "x": 1281,
+                            "y": 721
+                          },
+                          {
+                            "x": 0,
+                            "y": 721
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10306,6 +10430,9 @@
           },
           {
             "objectName": "lose"
+          },
+          {
+            "objectName": "background"
           }
         ]
       },
@@ -10781,6 +10908,26 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -10844,6 +10991,26 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -10857,6 +11024,53 @@
                   "parameters": [
                     "emas",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -11435,6 +11649,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11571,6 +11786,15 @@
                     "Draggable",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -11616,6 +11840,15 @@
                     "mangkok",
                     "Draggable",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
                   ]
                 }
               ]
@@ -11699,6 +11932,59 @@
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -16628,6 +16914,36 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -16691,6 +17007,36 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -16704,6 +17050,73 @@
                   "parameters": [
                     "emas",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -17439,6 +17852,15 @@
                     "Draggable",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -17484,6 +17906,15 @@
                     "mangkok",
                     "Draggable",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
                   ]
                 }
               ]
