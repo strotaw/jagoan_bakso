@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Home Scene",
   "gdVersion": {
     "build": 239,
     "major": 5,
@@ -1082,6 +1082,102 @@
         "name": "Group 32 (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_Off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/80b157db1711ebc0166b1e42ff29bbf8837b5c9a0b1d62494e8eb5ca06837a31_Small Plastic Green Round Switch_Off.png",
+          "name": "Small Plastic Green Round Switch_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_On.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/0af9e04c0c382482aeeaa36bc713a626249d6f6df3280bbccc6a042973ad555c_Small Plastic Green Round Switch_On.png",
+          "name": "Small Plastic Green Round Switch_On.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/14903c264ccc32143a5dea59a53e0a9fa7c055cdff1afb7ebc4ee624a783271e_Square Blue Toggle_Off.png",
+          "name": "Square Blue Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/2dda7f1aa5cac6d167f2833febbe1982b833183664653e8fac352579113982df_Square Blue Toggle_On.png",
+          "name": "Square Blue Toggle_On.png"
+        }
+      },
+      {
+        "file": "LOADING.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LOADING.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LOADING ..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LOADING ..png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LOADING . ..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LOADING . ..png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LOADING . . ..png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LOADING . . ..png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (5)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (5)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "MENANG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MENANG.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1147,6 +1243,27 @@
       "name": "chat_simpan",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "continue",
+      "type": "structure",
+      "children": [
+        {
+          "name": "level2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "level3",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "tempLoad",
+      "type": "string",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -1170,11 +1287,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8993607583666617,
+        "zoomFactor": 0.6897782140104506,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "isClicked",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -1214,12 +1337,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "setting_button",
-          "persistentUuid": "d00c723b-bca1-460b-b300-158408812c22",
+          "name": "Switch",
+          "persistentUuid": "14caf9c1-4b10-429e-b00a-9b976be5b2ad",
           "width": 0,
-          "x": 1120,
-          "y": 36,
-          "zOrder": 3,
+          "x": 1140,
+          "y": -158,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1227,16 +1350,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 64,
-          "height": 86,
+          "depth": 1,
+          "height": 81,
           "keepRatio": true,
           "layer": "",
-          "name": "Switch",
-          "persistentUuid": "40f2e252-557b-4582-9a38-3fabc5d5fbe3",
-          "width": 93,
-          "x": 1128,
-          "y": 231,
-          "zOrder": 2,
+          "name": "setting_button",
+          "persistentUuid": "88f6a685-9d4f-4c35-a9f1-618b1e0f135e",
+          "width": 84,
+          "x": 1130,
+          "y": 36,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1375,99 +1498,25 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "setting_button",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Group 29.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 110,
-                            "y": 0
-                          },
-                          {
-                            "x": 110,
-                            "y": 104
-                          },
-                          {
-                            "x": 0,
-                            "y": 104
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
+          "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
           "name": "Switch",
           "type": "SpriteToggleSwitch::SpriteToggleSwitch",
           "variant": "pertama",
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
+          "behaviors": [],
+          "content": {
+            "IsChecked": false
+          }
+        },
+        {
+          "assetStoreId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
+          "name": "setting_button",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variant": "setting",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
           "content": {
             "IsChecked": false
           }
@@ -1496,10 +1545,92 @@
           "conditions": [
             {
               "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
               },
               "parameters": [
                 "setting_button",
+                "ButtonFSM"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Switch",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
+              },
+              "parameters": [
+                "setting_button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Switch",
+                "=",
+                "-158"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+              },
+              "parameters": [
+                "Switch",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
+              },
+              "parameters": [
+                "Switch",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "play_button",
                 "ButtonFSM",
                 ""
               ]
@@ -1508,39 +1639,604 @@
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectHeightTween2"
+                "value": "Scene"
               },
               "parameters": [
-                "Switch",
-                "Tween",
-                "\"\"",
-                "78",
-                "\"linear\"",
-                "0.5",
+                "",
+                "\"Loading Scene\"",
                 ""
               ]
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                "value": "DeleteFichier"
               },
               "parameters": [
-                "Switch",
-                "Tween",
-                "\"\"",
-                "1130",
-                "223",
-                "\"linear\"",
-                "0.5",
+                "\"level\""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Setting Button",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Loading_32Scene",
+      "name": "Loading Scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Loading",
+          "persistentUuid": "6a6f24ab-027f-426a-8d8a-d260ee54c4a6",
+          "width": 516,
+          "x": 415,
+          "y": 309,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "7e399976-21da-4d4a-86f2-533adc1d287a",
+          "width": 0,
+          "x": -1,
+          "y": 1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 200,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mangkuk",
+          "persistentUuid": "355eae63-13a9-4232-a610-15227e1b47ee",
+          "width": 369,
+          "x": 483,
+          "y": 270,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Loading",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LOADING.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 86
+                          },
+                          {
+                            "x": 0,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LOADING ..png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 86
+                          },
+                          {
+                            "x": 0,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LOADING . ..png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 86
+                          },
+                          {
+                            "x": 0,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LOADING . . ..png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 0
+                          },
+                          {
+                            "x": 395,
+                            "y": 86
+                          },
+                          {
+                            "x": 0,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HOME (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "mangkuk",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 0,
+              "RadiusY": 0,
+              "LoopDuration": 3,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 0,
+              "ShouldRotate": true,
+              "RotationOffset": 100,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group (5)2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 455,
+                            "y": 0
+                          },
+                          {
+                            "x": 455,
+                            "y": 266
+                          },
+                          {
+                            "x": 0,
+                            "y": 266
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Loading"
+          },
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "mangkuk"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
                 ""
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Scene\"",
+                ""
+              ]
             }
           ]
         }
@@ -1617,12 +2313,12 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM"
-        },
-        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement"
         },
         {
           "name": "Flippable",
@@ -1639,111 +2335,8 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Loading_32Scene",
-      "name": "Loading Scene",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.546875,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": []
     },
     {
       "b": 209,
@@ -2398,21 +2991,19 @@
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
-                "\"level2\"",
-                "\"lock2\"",
+                "\"level\"",
+                "\"lock\"",
                 "",
-                "VabLock.level2"
+                "tempLoad"
               ]
             },
             {
               "type": {
-                "value": "ReadStringFromStorage"
+                "value": "JSONToVariableStructure2"
               },
               "parameters": [
-                "\"level3\"",
-                "\"lock3\"",
-                "",
-                "VabLock.level3"
+                "tempLoad",
+                "VabLock"
               ]
             },
             {
@@ -2469,22 +3060,22 @@
                 },
                 {
                   "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "ToJSON(VabLock)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "level_mie",
                     "ButtonFSM",
                     "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level2\"",
-                    "\"lock2\"",
-                    "ToJSON(VabLock.level2)"
                   ]
                 }
               ]
@@ -2515,22 +3106,22 @@
                 },
                 {
                   "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "ToJSON(VabLock)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "level_komplit",
                     "ButtonFSM",
                     "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level3\"",
-                    "\"lock3\"",
-                    "ToJSON(VabLock.level3)"
                   ]
                 }
               ]
@@ -2632,7 +3223,18 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Home Scene\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -3735,7 +4337,7 @@
               "parameters": [
                 "counter1",
                 "=",
-                "3"
+                "RandomInRange(0,8)"
               ]
             },
             {
@@ -4025,7 +4627,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988867,
+        "zoomFactor": 0.6040838749988879,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6144,6 +6746,25 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -6215,6 +6836,25 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -8279,6 +8919,26 @@
                     "",
                     "\"timer_objek\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "",
+                    "tempLoad"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "tempLoad",
+                    "VabLock"
+                  ]
                 }
               ]
             },
@@ -9284,12 +9944,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "aiGeneratedEventId": "01K4VE0H9TFAK0B1RG41E3KRGG",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9328,8 +9988,8 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
-                    ""
+                    "\"Loading Scene\"",
+                    "no"
                   ]
                 }
               ]
@@ -9383,26 +10043,6 @@
                   "parameters": [
                     "",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "VabLock.level2",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level2\"",
-                    "\"lock2\"",
-                    "ToJSON(VabLock.level2)"
                   ]
                 }
               ]
@@ -9494,7 +10134,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
+                    "\"2 Question Scene\"",
                     ""
                   ]
                 }
@@ -9514,6 +10154,26 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VabLock.level2",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "ToJSON(VabLock)"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -9630,16 +10290,6 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
                     "lanjut_button",
                     "ButtonFSM",
                     "no"
@@ -9667,17 +10317,42 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
+                    "restart_button",
                     "ButtonFSM",
                     "no"
                   ]
                 },
                 {
                   "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"KALAH LAYER\"",
+                    "\"info\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "restart_button",
+                    "menu_button",
                     "ButtonFSM",
                     "no"
                   ]
@@ -9976,6 +10651,10 @@
           "type": "ButtonStates::ButtonFSM"
         },
         {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -10014,6 +10693,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -15065,6 +15748,26 @@
                     "",
                     "\"timer_objek\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "",
+                    "tempLoad"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "tempLoad",
+                    "VabLock"
+                  ]
                 }
               ]
             },
@@ -15348,6 +16051,16 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "<",
+                    "soallevel"
+                  ]
                 }
               ],
               "actions": [
@@ -15430,10 +16143,107 @@
                   },
                   "parameters": [
                     "mangkok",
+                    "bakso",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    ">",
+                    "soallevel"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "+",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "bakso",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "_5",
+                    "mangkok.X()",
+                    "mangkok.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "_5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "mangkok",
                     "mie",
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "soallevel1"
                   ]
                 }
               ],
@@ -15479,16 +16289,6 @@
                 },
                 {
                   "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "collis",
-                    "\"info\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -15513,6 +16313,93 @@
                   },
                   "parameters": [
                     "_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "mangkok",
+                    "mie",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    ">",
+                    "soallevel1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "collis",
+                    "=",
+                    "mie.objek_vab"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "mie",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "_5",
+                    "mangkok.X()",
+                    "mangkok.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "_5",
                     ""
                   ]
                 }
@@ -15743,16 +16630,6 @@
                     "<",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "objek.mie",
-                    "<",
-                    "0"
-                  ]
                 }
               ],
               "actions": [
@@ -15765,7 +16642,24 @@
                     "=",
                     "0"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -16128,7 +17022,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -16176,66 +17069,30 @@
                     "soallevel1"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "mangkok",
-                        "Animation",
-                        "=",
-                        "\"mie2\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                      },
-                      "parameters": [
-                        "mangkok",
-                        "Animation"
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "NumberVariable"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.bakso",
-                        "<",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.mie",
-                        "<",
-                        "0"
-                      ]
-                    }
+                  "parameters": [
+                    "objek.bakso",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "0"
                   ]
                 }
               ],
@@ -16251,25 +17108,19 @@
                     "\"0\""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "NumberVariable"
+                        "value": "StringVariable"
                       },
                       "parameters": [
-                        "objek.bakso",
-                        ">",
-                        "soallevel"
+                        "collis",
+                        "=",
+                        "\"mie\""
                       ]
                     },
                     {
@@ -16277,29 +17128,62 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "objek.mie",
-                        ">",
-                        "soallevel1"
+                        "objek.bakso",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"mie1\""
                       ]
                     }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Score",
-                    "-",
-                    "5"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "collis",
+                        "=",
+                        "\"mie\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"mie2\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -16309,30 +17193,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "NumberVariable"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.bakso",
-                        "=",
-                        "soallevel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.mie",
-                        "=",
-                        "soallevel1"
-                      ]
-                    }
+                  "parameters": [
+                    "objek.bakso",
+                    "=",
+                    "soallevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "=",
+                    "soallevel1"
                   ]
                 },
                 {
@@ -16354,6 +17230,52 @@
                   "parameters": [
                     "",
                     "\"Win Layer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.mie",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        ">=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "mangkok",
+                    "Animation",
+                    "=",
+                    "\"mie2\""
                   ]
                 }
               ]
@@ -16416,12 +17338,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "aiGeneratedEventId": "01K4VE0H9TFAK0B1RG41E3KRGG",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -16460,8 +17382,8 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
-                    ""
+                    "\"Loading Scene\"",
+                    "no"
                   ]
                 }
               ]
@@ -16515,26 +17437,6 @@
                   "parameters": [
                     "",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "VabLock.level3",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level3\"",
-                    "\"lock3\"",
-                    "ToJSON(VabLock.level3)"
                   ]
                 }
               ]
@@ -16626,7 +17528,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
+                    "\"3 Question Scene\"",
                     ""
                   ]
                 }
@@ -16646,6 +17548,26 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VabLock.level3",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "ToJSON(VabLock)"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -16762,16 +17684,6 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
                     "lanjut_button",
                     "ButtonFSM",
                     "no"
@@ -16799,17 +17711,32 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
+                    "restart_button",
                     "ButtonFSM",
                     "no"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "restart_button",
+                    "menu_button",
                     "ButtonFSM",
                     "no"
                   ]
@@ -19687,7 +20614,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group-19.png",
+                      "image": "Group-20.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19735,7 +20662,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Group-20.png",
+                      "image": "Group-19.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19810,7 +20737,7 @@
               "name": "LinearMovement",
               "type": "LinearMovement::LinearMovement",
               "SpeedX": 0,
-              "SpeedY": 250
+              "SpeedY": 1000
             }
           ],
           "animations": [
@@ -22745,6 +23672,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spawn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22770,10 +23698,31 @@
                     "",
                     "\"timer_objek\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"lock\"",
+                    "",
+                    "tempLoad"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "tempLoad",
+                    "VabLock"
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -23101,6 +24050,16 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    "<",
+                    "soallevel"
+                  ]
                 }
               ],
               "actions": [
@@ -23183,10 +24142,291 @@
                   },
                   "parameters": [
                     "mangkok",
+                    "bakso",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.bakso",
+                    ">",
+                    "soallevel"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "collis",
+                    "=",
+                    "bakso.objek_vab"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "bakso",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "_5",
+                    "mangkok.X()",
+                    "mangkok.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "_5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "mangkok",
+                    "mie",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "soallevel1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "collis",
+                    "=",
+                    "mie.objek_vab"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "mie",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "_1",
+                    "mangkok.X()",
+                    "mangkok.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "_1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "mangkok",
+                    "mie",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    ">",
+                    "soallevel1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "-",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "collis",
+                    "=",
+                    "mie.objek_vab"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "mie",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "_5",
+                    "mangkok.X()",
+                    "mangkok.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "_5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "mangkok",
                     "tahu",
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "<",
+                    "soallevel2"
                   ]
                 }
               ],
@@ -23270,10 +24510,20 @@
                   },
                   "parameters": [
                     "mangkok",
-                    "mie",
+                    "tahu",
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    ">",
+                    "soallevel2"
                   ]
                 }
               ],
@@ -23284,18 +24534,8 @@
                   },
                   "parameters": [
                     "Score",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "objek.mie",
-                    "+",
-                    "1"
+                    "-",
+                    "5"
                   ]
                 },
                 {
@@ -23305,7 +24545,7 @@
                   "parameters": [
                     "collis",
                     "=",
-                    "mie.objek_vab"
+                    "tahu.objek_vab"
                   ]
                 },
                 {
@@ -23313,7 +24553,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "mie",
+                    "tahu",
                     ""
                   ]
                 },
@@ -23323,7 +24563,7 @@
                   },
                   "parameters": [
                     "",
-                    "_1",
+                    "_5",
                     "mangkok.X()",
                     "mangkok.Y()",
                     ""
@@ -23342,7 +24582,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "_1",
+                    "_5",
                     ""
                   ]
                 }
@@ -23593,26 +24833,6 @@
                     "<",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "objek.mie",
-                    "<",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "objek.tahu",
-                    "<",
-                    "0"
-                  ]
                 }
               ],
               "actions": [
@@ -23625,7 +24845,24 @@
                     "=",
                     "0"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -23635,7 +24872,24 @@
                     "=",
                     "0"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -24006,7 +25260,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -24065,76 +25318,40 @@
                     "soallevel2"
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "mangkok",
-                        "Animation",
-                        "=",
-                        "\"mie2\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                      },
-                      "parameters": [
-                        "mangkok",
-                        "Animation"
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "NumberVariable"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.bakso",
-                        "<",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.mie",
-                        "<",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.tahu",
-                        "<",
-                        "0"
-                      ]
-                    }
+                  "parameters": [
+                    "objek.bakso",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "<",
+                    "0"
                   ]
                 }
               ],
@@ -24150,65 +25367,158 @@
                     "\"0\""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "collis",
+                        "=",
+                        "\"mie\""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "NumberVariable"
                       },
                       "parameters": [
                         "objek.bakso",
-                        ">",
-                        "soallevel"
+                        "=",
+                        "0"
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
-                        "value": "NumberVariable"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "objek.mie",
-                        ">",
-                        "soallevel1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.tahu",
-                        ">",
-                        "soallevel2"
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"mie1\""
                       ]
                     }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "collis",
+                        "=",
+                        "\"mie\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"mie2\""
+                      ]
+                    }
+                  ]
+                },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Score",
-                    "-",
-                    "6"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "collis",
+                        "=",
+                        "\"tahu\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"tahu1\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "collis",
+                        "=",
+                        "\"tahu\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "mangkok",
+                        "Animation",
+                        "=",
+                        "\"tahu2\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -24218,40 +25528,32 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "NumberVariable"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.bakso",
-                        "=",
-                        "soallevel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.mie",
-                        "=",
-                        "soallevel1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "objek.tahu",
-                        "=",
-                        "soallevel2"
-                      ]
-                    }
+                  "parameters": [
+                    "objek.bakso",
+                    "=",
+                    "soallevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.mie",
+                    "=",
+                    "soallevel1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "objek.tahu",
+                    "=",
+                    "soallevel2"
                   ]
                 },
                 {
@@ -24273,6 +25575,62 @@
                   "parameters": [
                     "",
                     "\"Menang Layer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.tahu",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.bakso",
+                        ">=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "objek.mie",
+                        ">=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "mangkok",
+                    "Animation",
+                    "=",
+                    "\"tahu2\""
                   ]
                 }
               ]
@@ -24335,12 +25693,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "aiGeneratedEventId": "01K4VE0H9TFAK0B1RG41E3KRGG",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -24379,8 +25737,8 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
-                    ""
+                    "\"Loading Scene\"",
+                    "no"
                   ]
                 }
               ]
@@ -24525,7 +25883,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Level Scene\"",
+                    "\"Menang Scene\"",
                     ""
                   ]
                 }
@@ -24661,16 +26019,6 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
                     "lanjut_button",
                     "ButtonFSM",
                     "no"
@@ -24698,17 +26046,32 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "menu_button",
+                    "restart_button",
                     "ButtonFSM",
                     "no"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "restart_button",
+                    "menu_button",
                     "ButtonFSM",
                     "no"
                   ]
@@ -25045,6 +26408,238 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Menang_32Scene",
+      "name": "Menang Scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "c2561b0d-3784-455a-8a1b-43e56e235a02",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MENANG.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1281,
+                            "y": 0
+                          },
+                          {
+                            "x": 1281,
+                            "y": 721
+                          },
+                          {
+                            "x": 0,
+                            "y": 721
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Loading Scene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -45019,9 +46614,321 @@
           ],
           "variants": [
             {
-              "areaMaxX": 64,
-              "areaMaxY": 64,
+              "areaMaxX": 110,
+              "areaMaxY": 104,
+              "areaMaxZ": 1,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "setting",
+              "objects": [
+                {
+                  "adaptCollisionMaskAutomatically": false,
+                  "assetStoreId": "",
+                  "name": "State",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "SpriteToggleSwitch::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 0
+                    },
+                    {
+                      "name": "SwitchFSM",
+                      "type": "SpriteToggleSwitch::SwitchFSM",
+                      "ButtonFSM": "ButtonFSM",
+                      "IsChecked": false,
+                      "WasChecked": false
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "name": "Unchecked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Group 29.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Checked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Group 29.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "State"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "State",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 143,
+              "areaMaxY": 59,
               "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Small Green Plastic Round Switch2",
+              "objects": [
+                {
+                  "adaptCollisionMaskAutomatically": false,
+                  "assetStoreId": "",
+                  "name": "State",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "SpriteToggleSwitch::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 0
+                    },
+                    {
+                      "name": "SwitchFSM",
+                      "type": "SpriteToggleSwitch::SwitchFSM",
+                      "ButtonFSM": "ButtonFSM",
+                      "IsChecked": false,
+                      "WasChecked": false
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "name": "Unchecked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Small Plastic Green Round Switch_Off.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Checked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Small Plastic Green Round Switch_On.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "State"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "State",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 64,
+              "areaMaxY": 150,
+              "areaMaxZ": 1,
               "areaMinX": 0,
               "areaMinY": 0,
               "areaMinZ": 0,
@@ -45073,10 +46980,10 @@
                                 "y": 0
                               },
                               "centerPoint": {
-                                "automatic": true,
+                                "automatic": false,
                                 "name": "centre",
-                                "x": 0,
-                                "y": 0
+                                "x": 92,
+                                "y": 221
                               },
                               "customCollisionMask": [
                                 [
@@ -45121,10 +47028,10 @@
                                 "y": 0
                               },
                               "centerPoint": {
-                                "automatic": true,
+                                "automatic": false,
                                 "name": "centre",
-                                "x": 0,
-                                "y": 0
+                                "x": 92,
+                                "y": 221
                               },
                               "customCollisionMask": [
                                 [
@@ -45204,7 +47111,323 @@
                   "persistentUuid": "bda60bb1-c312-4710-baf7-ec7a3887c076",
                   "width": 64,
                   "x": 0,
-                  "y": -86,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 143,
+              "areaMaxY": 59,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+              "assetStoreOriginalName": "Small Green Plastic Round Switch",
+              "name": "Small Green Plastic Round Switch",
+              "objects": [
+                {
+                  "adaptCollisionMaskAutomatically": false,
+                  "assetStoreId": "",
+                  "name": "State",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "SpriteToggleSwitch::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 0
+                    },
+                    {
+                      "name": "SwitchFSM",
+                      "type": "SpriteToggleSwitch::SwitchFSM",
+                      "ButtonFSM": "ButtonFSM",
+                      "IsChecked": false,
+                      "WasChecked": false
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "name": "Unchecked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Small Plastic Green Round Switch_Off.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Checked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Small Plastic Green Round Switch_On.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "State"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "State",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 25,
+              "areaMaxY": 26,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
+              "assetStoreOriginalName": "Square Blue Toggle",
+              "name": "Square Blue Toggle",
+              "objects": [
+                {
+                  "adaptCollisionMaskAutomatically": false,
+                  "assetStoreId": "",
+                  "name": "State",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "SpriteToggleSwitch::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 0
+                    },
+                    {
+                      "name": "SwitchFSM",
+                      "type": "SpriteToggleSwitch::SwitchFSM",
+                      "ButtonFSM": "ButtonFSM",
+                      "IsChecked": false,
+                      "WasChecked": false
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "name": "Unchecked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Square Blue Toggle_Off.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Checked",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Square Blue Toggle_On.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "State"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "State",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
                   "zOrder": 1,
                   "numberProperties": [],
                   "stringProperties": [],
