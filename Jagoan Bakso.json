@@ -1137,6 +1137,11 @@
       "name": "volume",
       "type": "number",
       "value": 100
+    },
+    {
+      "name": "isMuted",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1484,7 +1489,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "volume",
+                "isMuted",
                 "=",
                 "0"
               ]
@@ -1510,9 +1515,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "volume",
+                "isMuted",
                 "=",
-                "100"
+                "1"
               ]
             }
           ]
@@ -29171,7 +29176,7 @@
             {
               "type": {
                 "inverted": true,
-                "value": "MusicPaused"
+                "value": "MusicPlaying"
               },
               "parameters": [
                 "",
@@ -29188,16 +29193,6 @@
           "actions": [
             {
               "type": {
-                "value": "ModGlobalVolume"
-              },
-              "parameters": [
-                "",
-                "=",
-                "volume"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlayMusicCanal"
               },
               "parameters": [
@@ -29205,8 +29200,60 @@
                 "Cartoon Jéja - On & On (feat. Daniel Levi) Electronic Pop NCS - Copyright Free Music.mp3",
                 "1",
                 "yes",
-                "GlobalVolume()",
+                "100",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "isMuted",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "isMuted",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RePlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
