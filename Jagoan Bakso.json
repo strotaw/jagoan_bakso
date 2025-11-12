@@ -1,7 +1,7 @@
 {
   "firstLayout": "Home Scene",
   "gdVersion": {
-    "build": 240,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -914,30 +914,6 @@
         "userAdded": false
       },
       {
-        "file": "Group (7)3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group (7)3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group (8)3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group (8)3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group (6)3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group (6)3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Group (13)2.png",
         "kind": "image",
         "metadata": "",
@@ -950,14 +926,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Group (14)2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../Downloads/Group (11).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\Downloads\\Group (11).png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1010,14 +978,6 @@
         "userAdded": false
       },
       {
-        "file": "Group (20)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group (20)2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Group (21).png",
         "kind": "image",
         "metadata": "",
@@ -1034,14 +994,6 @@
         "userAdded": false
       },
       {
-        "file": "../../../../Downloads/Group (9).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\Downloads\\Group (9).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Cartoon Jéja - On & On (feat. Daniel Levi) Electronic Pop NCS - Copyright Free Music.mp3",
         "kind": "audio",
         "metadata": "",
@@ -1052,19 +1004,171 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite9.png",
+        "file": "Group (23).png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
-        "name": "NewSprite6",
+        "metadata": "",
+        "name": "Group (23).png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite9",
-        "smoothed": true,
+        "file": "Start.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Start.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Setting (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Setting (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backsound 1 (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 1 (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level Click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Level Click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Lock Level.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lock Level.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Lock Level2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lock Level2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backsound 2 (2).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 2 (2).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Bomb.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Bomb.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Emas Batang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Emas Batang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kembali.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kembali.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Lanjut.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lanjut.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Selesai.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Selesai.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gagal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Gagal.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Nyawa.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Nyawa.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Score.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Score.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Missed (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Missed (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -1097,23 +1201,6 @@
       "value": 0
     },
     {
-      "folded": true,
-      "name": "VabLock",
-      "type": "structure",
-      "children": [
-        {
-          "name": "level2",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "level3",
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
       "name": "person_image",
       "type": "string",
       "value": "0"
@@ -1134,14 +1221,37 @@
       "value": 0
     },
     {
-      "name": "volume",
-      "type": "number",
-      "value": 100
-    },
-    {
-      "name": "isMuted",
+      "name": "main",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "game",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "VabLock",
+          "type": "structure",
+          "children": [
+            {
+              "name": "level2",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "level3",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "isMuted",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1165,7 +1275,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104506,
+        "zoomFactor": 0.44819780454103647,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1423,15 +1533,79 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"level\"",
+                "\"game\"",
+                "",
+                "tempLoad"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "tempLoad",
+                "game"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "main",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
               },
               "parameters": [
                 "setting_button",
                 "ButtonFSM"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Setting (1).wav",
+                "3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "MettreY"
@@ -1455,9 +1629,28 @@
                 "setting_button",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Setting (1).wav",
+                "3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "MettreY"
@@ -1489,9 +1682,19 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "isMuted",
+                "game.isMuted",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"level\"",
+                "\"game\"",
+                "ToJSON(game)"
               ]
             }
           ]
@@ -1515,9 +1718,73 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "isMuted",
+                "game.isMuted",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"level\"",
+                "\"game\"",
+                "ToJSON(game)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "game.isMuted",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "Switch",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "game.isMuted",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+              },
+              "parameters": [
+                "Switch",
+                "no",
+                ""
               ]
             }
           ]
@@ -1534,9 +1801,28 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Start.wav",
+                "3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -1727,7 +2013,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.4335774304702372,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2299,7 +2585,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.4481978045410356,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2929,22 +3215,12 @@
           "actions": [
             {
               "type": {
-                "value": "ReadStringFromStorage"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "\"level\"",
-                "\"lock\"",
-                "",
-                "tempLoad"
-              ]
-            },
-            {
-              "type": {
-                "value": "JSONToVariableStructure2"
-              },
-              "parameters": [
-                "tempLoad",
-                "VabLock"
+                "main",
+                "=",
+                "0"
               ]
             },
             {
@@ -2977,16 +3253,10 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "VabLock.level2",
+                    "game.VabLock.level2",
                     "=",
                     "1"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -2997,16 +3267,6 @@
                   "parameters": [
                     "lock",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level\"",
-                    "\"lock\"",
-                    "ToJSON(VabLock)"
                   ]
                 },
                 {
@@ -3029,7 +3289,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "VabLock.level3",
+                    "game.VabLock.level3",
                     "=",
                     "1"
                   ]
@@ -3043,16 +3303,6 @@
                   "parameters": [
                     "lock2",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level\"",
-                    "\"lock\"",
-                    "ToJSON(VabLock)"
                   ]
                 },
                 {
@@ -3081,9 +3331,28 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Level Click.wav",
+                "3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -3097,6 +3366,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3108,22 +3378,74 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "\"2 Question Scene\"",
+                "Lock Level2.wav",
+                "3",
+                "",
+                "",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.VabLock.level2",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"2 Question Scene\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Level Click.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3135,17 +3457,68 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "\"3 Question Scene\"",
+                "Lock Level2.wav",
+                "3",
+                "",
+                "",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.VabLock.level3",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Level Click.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"3 Question Scene\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -3162,9 +3535,28 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Kembali.wav",
+                "3",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -4267,6 +4659,31 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "main",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -9006,7 +9423,7 @@
                   },
                   "parameters": [
                     "\"level\"",
-                    "\"lock\"",
+                    "\"game\"",
                     "",
                     "tempLoad"
                   ]
@@ -9017,7 +9434,7 @@
                   },
                   "parameters": [
                     "tempLoad",
-                    "VabLock"
+                    "game"
                   ]
                 }
               ]
@@ -9330,6 +9747,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -9411,6 +9841,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Bomb.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -9513,6 +9956,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Emas Batang.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -9827,6 +10283,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Nyawa.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -10019,6 +10488,26 @@
                     "",
                     "\"Menang Layer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "game.VabLock.level2",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"level\"",
+                    "\"game\"",
+                    "ToJSON(game)"
+                  ]
                 }
               ]
             },
@@ -10107,6 +10596,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Button Behaviour",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10124,9 +10614,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kembali.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ChangeTimeScale"
@@ -10169,9 +10678,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -10222,9 +10750,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -10319,22 +10866,15 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "VabLock.level2",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"level\"",
-                    "\"lock\"",
-                    "ToJSON(VabLock)"
+                    "",
+                    "Selesai.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -10392,6 +10932,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Gagal.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -16343,7 +16896,7 @@
                   },
                   "parameters": [
                     "\"level\"",
-                    "\"lock\"",
+                    "\"game\"",
                     "",
                     "tempLoad"
                   ]
@@ -16354,7 +16907,7 @@
                   },
                   "parameters": [
                     "tempLoad",
-                    "VabLock"
+                    "game"
                   ]
                 }
               ]
@@ -16720,6 +17273,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -16817,6 +17383,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Missed (1).wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -16904,6 +17483,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -17001,6 +17593,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Missed (1).wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -17082,6 +17687,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Bomb.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -17174,6 +17792,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Emas Batang.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -17521,6 +18152,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Nyawa.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Health::Health::Hit"
@@ -17891,9 +18535,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kembali.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ChangeTimeScale"
@@ -17936,9 +18599,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -17989,9 +18671,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -18086,10 +18787,23 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Selesai.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "VabLock.level3",
+                    "game.VabLock.level3",
                     "=",
                     "1"
                   ]
@@ -18100,8 +18814,8 @@
                   },
                   "parameters": [
                     "\"level\"",
-                    "\"lock\"",
-                    "ToJSON(VabLock)"
+                    "\"game\"",
+                    "ToJSON(game)"
                   ]
                 },
                 {
@@ -18159,6 +18873,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Gagal.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -20194,7 +20921,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740928,
+        "zoomFactor": 0.3797121001947934,
         "windowMask": false
       },
       "objectsGroups": [
@@ -21655,7 +22382,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\Group (11).png",
+                      "image": "Group (23).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25449,7 +26176,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\Group (11).png",
+                      "image": "Group (23).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -26122,7 +26849,7 @@
                   },
                   "parameters": [
                     "\"level\"",
-                    "\"lock\"",
+                    "\"game\"",
                     "",
                     "tempLoad"
                   ]
@@ -26133,7 +26860,7 @@
                   },
                   "parameters": [
                     "tempLoad",
-                    "VabLock"
+                    "game"
                   ]
                 }
               ]
@@ -26548,6 +27275,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -26645,6 +27385,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Missed (1).wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -26732,6 +27485,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -26829,6 +27595,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Missed (1).wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -26916,6 +27695,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Score.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -27013,6 +27805,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Missed (1).wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -27094,6 +27899,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Bomb.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -27216,6 +28034,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Emas Batang.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -27648,6 +28479,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Nyawa.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Health::Health::Hit"
@@ -28088,9 +28932,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kembali.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ChangeTimeScale"
@@ -28133,9 +28996,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -28186,9 +29068,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lanjut.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PushScene"
@@ -28283,6 +29184,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Selesai.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -28346,6 +29260,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Gagal.wav",
+                    "3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -29058,116 +29985,11 @@
           "type": "ScalableCapability::ScalableBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "BGM",
-      "name": "BGM",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": false,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.546875,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [
     {
-      "associatedLayout": "BGM",
+      "associatedLayout": "Home Scene",
       "name": "BGM",
       "events": [
         {
@@ -29185,9 +30007,13 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "NumberVariable"
               },
-              "parameters": []
+              "parameters": [
+                "main",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -29197,11 +30023,38 @@
               },
               "parameters": [
                 "",
-                "Cartoon Jéja - On & On (feat. Daniel Levi) Electronic Pop NCS - Copyright Free Music.mp3",
+                "Backsound 1 (1).wav",
                 "1",
                 "yes",
-                "100",
+                "",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                }
               ]
             }
           ]
@@ -29211,10 +30064,20 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
-                "isMuted",
+                "main",
                 "=",
                 "1"
               ]
@@ -29223,11 +30086,42 @@
           "actions": [
             {
               "type": {
-                "value": "PauseMusicCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
-                "1"
+                "Backsound 2 (2).wav",
+                "2",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -29240,7 +30134,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "isMuted",
+                "game.isMuted",
                 "=",
                 "0"
               ]
@@ -29249,11 +30143,85 @@
           "actions": [
             {
               "type": {
-                "value": "RePlayMusicCanal"
+                "value": "ModVolumeMusicCanal"
               },
               "parameters": [
                 "",
+                "1",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "game.isMuted",
+                "=",
                 "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3",
+                "=",
+                "0"
               ]
             }
           ]
@@ -30397,28 +31365,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
@@ -30956,7 +31902,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -30966,7 +31911,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -31406,7 +32350,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -31416,7 +32359,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -32810,7 +33752,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -32820,7 +33761,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -32865,140 +33805,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -33006,140 +33812,6 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
@@ -33162,20 +33834,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             },
@@ -33204,20 +33862,6 @@
               "value": "NoTween",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "NoTween",
-                  "value": "NoTween"
-                },
-                {
-                  "label": "FadeIn",
-                  "value": "FadeIn"
-                },
-                {
-                  "label": "FadeOut",
-                  "value": "FadeOut"
-                }
-              ],
               "hidden": true,
               "name": "TweenState"
             },
@@ -34171,7 +34815,6 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
-              "choices": [],
               "name": "Scale"
             },
             {
@@ -34181,7 +34824,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -34191,7 +34833,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -34240,140 +34881,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -34381,160 +34888,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -35495,7 +35854,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -35505,7 +35863,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -35551,140 +35908,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -35692,160 +35915,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -47540,7 +47615,6 @@
               "extraInformation": [
                 "SpriteToggleSwitch::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -48677,28 +48751,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
